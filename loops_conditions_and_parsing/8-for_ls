@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 #8-for_ls
 
-countent=0
-list=$(ls)
-for content in $list
+for content in *
 do
-echo "$content" | cut -d "-" -f2
+echo "$content" | cut -d "-" -f2-
 done

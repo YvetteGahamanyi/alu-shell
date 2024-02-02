@@ -10,7 +10,7 @@ minutes=1
 while [$minutes -le 59];
 do
 echo $minutes
-let minutes=minutes+1
+((minutes++))
 done
-let hour=hour+1
+((hour++))
 done
