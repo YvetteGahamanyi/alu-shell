@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#8-for_ls
 
 countent=0
 list=$(ls)

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#2-while_best_school
 
 count=1
 while [ $count -le 10 ];
