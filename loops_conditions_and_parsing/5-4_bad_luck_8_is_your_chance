@@ -15,5 +15,5 @@ echo "good luck"
 else
 echo "Best School"
 fi
-let count=count+1
+(( count++ ))
 done
