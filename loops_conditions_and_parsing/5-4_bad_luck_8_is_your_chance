@@ -1,19 +1,19 @@
 #!/usr/bin/env bash
-#5-4_bad_luck_8_is_your_chance
-
-
-count=0
-
-while [ $count -lt 10 ];
+# This script loops from 1 to 10:
+# displays bad luck for the 4th loop iteration
+# displays good luck for the 8th loop iteration
+# displays Best School for the other iterations
+i="0"
+while [ $i -lt 10 ]
 do
-if [ $count -eq 3]
+if [ $i -eq 3 ];
 then
-echo "bad luck"
-elif [ $count -eq 7]
+    echo "bad luck"
+elif [ $i -eq 7 ];
 then
-echo "good luck"
+    echo "good luck"
 else
-echo "Best School"
+    echo "Best School"
 fi
-(( count++ ))
+i=$((i+1))
 done
